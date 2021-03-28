@@ -82,6 +82,11 @@
         font-size: 40px;
     }
 
+    .tm-welcome-header-2 {
+        width: 200px;
+        height: 150px;
+    }
+
     .tm-header-line {
         width: 44px;
     }
