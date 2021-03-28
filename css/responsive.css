@@ -1,7 +1,7 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
     .bg-main {
-        width: 50px;
+        width: 100%;
     }
 }
 
@@ -16,6 +16,6 @@
     }
 
     .bg-main {
-       width: 100px; 
+       width: 50%; 
     }
 }
