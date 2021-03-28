@@ -147,18 +147,8 @@ ul {
     font-size: 56px;
 }
 
-@media(max-width:1000px) {
 .tm-welcome-header-2 {
- width: 50%;
-}
 
-}
-
-@media(max-width:670px) {
-    .tm-welcome-header-2 {
-     width: 100%;
-}
-    
 }
 
 .tm-welcome-content {
