@@ -148,7 +148,12 @@ ul {
 }
 
 .tm-welcome-header-2 {
-    width: 100%;
+    width: 382px;
+    height: 135px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
 }
 
 .tm-welcome-content {
