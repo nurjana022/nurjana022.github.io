@@ -1,0 +1,163 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .whyus-main-row {
+        margin-top: 3em;
+    }
+
+
+    /* Clear floats after the columns */
+    .whyus-main-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Clear floats after the columns */
+    .whyus-item-row {
+        margin-top: 1em;
+        height: 10em;
+    }
+
+    .whyus-item-row:hover {
+        color: #ffffff;
+        background-color: #636e72;
+    }
+
+    .whyus-item-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .whyus-main-col {
+        float: left;
+        text-align: left;
+        width: 100%;
+        padding: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-img-col {
+        margin-top: 0em;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        height: 4em;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-text-col {
+        float: left;
+        width: 80%;
+        padding: 10px;
+        height: 4em;
+        font-family: Arial, Helvetica, sans-serif;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-text-col-h5 {
+        font-weight: bold;
+    }
+
+    .whyus-text-col {
+        font-weight: 500;
+    }
+
+    .whyus-image {
+        display: block;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: auto;
+    }
+
+    .whyus-font-h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .whyus-main-row {
+        margin-top: 3em;
+    }
+
+
+    /* Clear floats after the columns */
+    .whyus-main-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Clear floats after the columns */
+    .whyus-item-row {
+        margin-top: 1em;
+        height: 10em;
+    }
+
+    .whyus-item-row:hover {
+        color: #ffffff;
+        background-color: #636e72;
+    }
+
+    .whyus-item-row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .whyus-main-col {
+        float: left;
+        text-align: justify;
+        width: 100%;
+        padding: 10px;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-img-col {
+        margin-top: 0em;
+        float: left;
+        width: 20%;
+        padding: 10px;
+        height: 4em;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-text-col {
+        float: left;
+        width: 80%;
+        padding: 10px;
+        height: 4em;
+        font-family: Arial, Helvetica, sans-serif;
+        /* Should be removed. Only for demonstration */
+    }
+
+    .whyus-text-col-h5 {
+        font-weight: bold;
+    }
+
+    .whyus-text-col {
+        font-weight: 500;
+    }
+
+    .whyus-image {
+        display: none;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: auto;
+    }
+
+    .whyus-font-h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}

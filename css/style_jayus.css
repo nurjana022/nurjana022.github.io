@@ -1,0 +1,67 @@
+.foto-produk{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	box-shadow: 5px 8px 8px rgba(0,0,0,.1);
+}
+.main-jayus {
+  padding-bottom: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  text-align: center;
+}
+.con-jayus {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.product-jayus {
+  float: left;
+  width: 25%;
+}
+
+.icon-jayus {
+  position: relative;
+}
+.heading h1 {
+  font-weight: normal;
+  color: #382e1e; 
+  text-align: center;
+}
+.icon-jayus p {
+  position: absolute;
+  top: 64%; 
+  width: 100%;
+  color: white;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #382e1e; 
+}
+@media screen and (max-width: 976px) {
+	
+	.product-jayus {
+	  float: left;
+	  width: 100%;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	
+	.product-jayus {
+	  float: left;
+	  width: 100%;
+	 
+	}
+}
+@media screen and (max-width: 375px) {
+	
+	.product-jayus {
+	  float: left;
+	  width: 100%;
+	}
+}
