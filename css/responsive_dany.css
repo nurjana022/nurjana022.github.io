@@ -79,7 +79,8 @@
     }
 
     .tm-welcome-header {
-        font-size: 40px;
+        font-size: 55px;
+        padding:20px;
     }
 
     .tm-header-line {
