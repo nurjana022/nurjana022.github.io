@@ -1,8 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-    .bg-main {
-        width: 100%;
-    }
+
 }
 
 /* Untuk Smartphone */
@@ -15,7 +13,4 @@
         display: block;
     }
 
-    .bg-main {
-       width: 50%; 
-    }
 }
