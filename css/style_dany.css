@@ -149,10 +149,6 @@ ul {
 
 .tm-welcome-header-2 {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    min-width: 300px;
     height: auto;
 }
 
