@@ -3,8 +3,9 @@
 }
 
 @keyframes tombol {
-    from{background-color: blue;}
-    to {background-color: #FF8C00;}
+  0%   {left:0px; top:0px;}
+  50%  {left:200px; top:200px;}
+  100% {left:0px; top:0px;}
 }
 body {
   margin: 0;
@@ -20,9 +21,19 @@ a {
 }
 
 .container {
-  width: 50%;
+  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.move {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+  animation-name: tombol;
+  animation-duration: 4s;
+  animation-delay: -2s;
 }
 
 .top-wrapper {
